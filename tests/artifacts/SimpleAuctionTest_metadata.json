@@ -14,7 +14,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "checkStorageStore",
+				"name": "bidSmall",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -33,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/1_Storage_test.sol": "StorageTest"
+			"tests/5_SimpleAuction_test.sol": "SimpleAuctionTest"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -47,12 +47,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_Storage.sol": {
-			"keccak256": "0xb6ee9d528b336942dd70d3b41e2811be10a473776352009fd73f85604f5ed206",
+		"contracts/5_SimpleAuction.sol": {
+			"keccak256": "0xb084d56e4e809a4c47eaf2cf9a87b25c9ea32980eeec20c564ca5f9a98a4142b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fe52c6e3c04ba5d83ede6cc1a43c45fa43caa435b207f64707afb17d3af1bcf1",
-				"dweb:/ipfs/QmawU3NM1WNWkBauRudYCiFvuFE1tTLHB98akyBvb9UWwA"
+				"bzz-raw://1c90f5bd4ead6de910913c1ab69c3f8c06c17e09be972896544cdd0adcfe270e",
+				"dweb:/ipfs/QmPZZfwNWRsceWoU2YQtNN89PccLkmbesGjKZmnF37irqs"
 			]
 		},
 		"remix_tests.sol": {
@@ -63,12 +63,12 @@
 				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
 			]
 		},
-		"tests/1_Storage_test.sol": {
-			"keccak256": "0x23f1b5961bba6aa79cfd0e85e6369b079e95cc0cf6954580429ac33e031b55ea",
+		"tests/5_SimpleAuction_test.sol": {
+			"keccak256": "0x93aaad1f6ba4d75228736d4805ec09f459971b6e508af87fd608e03068af694c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0792e31b041791b137197cade860603afb6c5524ce511b08d9ca5e1b4afbc860",
-				"dweb:/ipfs/QmTpTofjEA1hPCyNF4qjdkpkV6TLGvnnz1at8Q8qbAw2gt"
+				"bzz-raw://5561c6ba6feeb149d909a7f73389252b670f76ce9a0c4f0377511d4ab70732ea",
+				"dweb:/ipfs/QmUXJFGFTpCX6XpG7cGQJ2EZBojsHFEnaBNCs3k9ZUe13v"
 			]
 		}
 	},
